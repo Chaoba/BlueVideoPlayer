@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluePlayer</string>
+    <string name="action_settings">Settings</string>
+    <string name="video_list">视频列表</string>
+    <string name="folder_list">文件夹列表</string>
+    <string name="start_scan">扫描开始</string>
+    <string name="end_scan">扫描结束</string>
+    <string name="delete">删除</string>
+    <string name="detail">详细信息</string>
+    <string name="setting">设置</string>
+    <string name="cleared">清除完成</string>
+    <string name="no_played_video">没有播放过的视频</string>
+    <string name="can_not_play">无法播放该视频</string>
+    <string name="menu_title">选项</string>
+    <string name="file_delete">删除文件</string>
+    <string name="file_delete_confirm">你确定删除<g id="part1">%1$s</g></string>
+    <string name="files_delete_confirm">你确定删除该文件夹里的所有的<g id="part1">%1$s</g>部视频吗？</string>
+    <string name="video_count"><g id="part1">%1$s</g>部视频</string>
+    <string name="file_info">文件信息</string>
+    <string name="delete_fail">删除失败</string>
+    <string name="duration"><g id="part1">%1$s</g>/<g id="part2">%2$s</g></string>
+    <string name="about">关于</string>
+    <string name="about_title">作者：qqliys</string>
+    <string name="about_content">有任何意见或建议请联系<email>qqliys@126.com</email>,谢谢</string>
+
+    <string name="video_sort">视频排序</string>
+    <string name="select_sort_property">请选择排序依据的属性</string>
+    <string name="sort_type">排序类型</string>
+    <string name="select_asc_desc">请选择排序的升降序</string>
+    <string name="asc_desc">升序/降序</string>
+    <string name="lock_screan">锁定屏幕</string>
+    <string name="lock_while_playting">播放时锁定屏幕</string>
+    <string name="selected_to_lock">选择后在播放时会锁定屏幕</string>
+    <string name="clear_records">清除播放记录</string>
+
+    <string name="click_to_clear_records">点击清除播放记录</string>
+
+</resources>

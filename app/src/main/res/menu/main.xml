@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menuGroup">
+        <item
+            android:id="@+id/menu_refresh"
+            android:icon="@drawable/button_refresh_click"
+            android:showAsAction="ifRoom"
+            android:title="刷新"/>
+        <item
+            android:id="@+id/menu_continue"
+            android:icon="@drawable/button_last_play_click"
+            android:showAsAction="ifRoom"
+            android:title="继续播放"/>
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@drawable/icon_setting"
+            android:title="设置"/>
+    </group>
+</menu>

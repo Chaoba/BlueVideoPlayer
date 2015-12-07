@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/video_sort">
+        <ListPreference
+            android:dialogTitle="@string/select_sort_property"
+            android:entries="@array/sort_type"
+            android:entryValues="@array/sort_type_value"
+            android:key="sort_type"
+            android:summary="@string/select_sort_property"
+            android:title="@string/sort_type"/>
+        <ListPreference
+            android:dialogTitle="@string/select_asc_desc"
+            android:entries="@array/order"
+            android:entryValues="@array/order_value"
+            android:key="sort_order"
+            android:summary="@string/select_asc_desc"
+            android:title="@string/asc_desc"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_screan">
+        <CheckBoxPreference
+            android:key="lock"
+            android:summary="@string/selected_to_lock"
+            android:title=""/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/clear_records">
+        <Preference
+            android:key="clear"
+            android:title="@string/click_to_clear_records"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="about"
+            android:summary="@string/about_content"
+            android:title="@string/about_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
